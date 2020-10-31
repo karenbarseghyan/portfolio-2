@@ -6,28 +6,26 @@
 }
 /* use uigradients.com */
 .layout-color {
-  background: #E0EAFC;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ background-color: rgb(230, 230, 230);
 }
-
 .banner-text {
   color: black;
   opacity: 0.9;
-  width: 40%;
+  width: 75%;
   text-align: center;
   margin: auto;
   border-radius: 20px;
 }
 
 .banner-text h1 {
-  font-size: 50px;
+  padding: 5px;
+  font-size: 40px;
   font-weight: bold;
-  color:black
+  color:rgb(177, 177, 177)
 }
 
 .banner-text hr {
-  border-top: 4px dotted black;
+  border-top: 4px dotted rgb(177, 177, 177);
   margin:  auto;
   width: 80%;
 }
@@ -40,15 +38,7 @@
 }
 
 .social-links i {
-  color: white;
+  color: rgb(177, 177, 177);
   font-size: 5em;
   padding: 20px
 }
-
-
-
-
-
-
-
-
