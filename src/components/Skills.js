@@ -38,7 +38,13 @@ class Skills extends Component {
                             My first React Portfolio
                         </CardText>
                         <CardActions border>
-                            <Button colored> Github </Button>
+                            <Button className = "button-align" style ={{backgroundColor: '#63c2de'}}> 
+                            <div>
+                                <a  href = "http://github.com/karenbarseghyan" rel="noreferrer" target = "_blank" style = {{textDecoration: 'none'}}>
+                                    <p className = "github-link">GutHub</p> 
+                                </a>
+                            </div>
+                            </Button>
                         </CardActions>
                         <CardMenu style = {{color: '#aaa'}}>
                             <IconButton name = "share" />
