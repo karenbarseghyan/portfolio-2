@@ -56,3 +56,41 @@
   color: black;
 }
 
+.contact-body {
+  margin: auto;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  justify-content: center;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 68%;
+  height: 600px;
+  background: white;
+  color: black;
+  border: 5px solid rgb(220, 100, 100);
+}
+
+.contact-grid h2 {
+  font-family: "Nova+Mono", monospace;
+}
+.contact-grid p {
+  font-family: "Nova+Mono", monospace;
+  font-size: 25px
+}
+
+.contact-grid hr {
+  margin: auto;
+  border-top: 4px dotted black;
+  width: 90%
+}
+
+.contact-list-content  {
+  margin-left: 20px;
+  font-size: 25px;
+  font-family: "Nova+Mono", monospace;
+  margin-top: 5px;
+}
