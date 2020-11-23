@@ -20,15 +20,19 @@ class Personal extends Component {
                             <List>
                                 <ListItem>
                                     <ListItemContent className = "contact-list-content">
+                                        <div>
                                         <i class ="fa fa-phone-square" /> 
-                                        &nbsp; (374) 55-377-443
+                                            &nbsp;(374) 55-377-443
                                         <br />
+                                        </div>
                                     </ListItemContent >
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent className = "contact-list-content">
+                                        <div>
                                         <i class="fa fa-envelope-square" /> 
                                         &nbsp; karenbarseghyan90@gmail.com
+                                        </div>
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>

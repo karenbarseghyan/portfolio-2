@@ -89,6 +89,7 @@
 }
 
 .contact-list-content  {
+  display: inline;
   margin-left: 20px;
   font-size: 25px;
   font-family: "Nova+Mono", monospace;
