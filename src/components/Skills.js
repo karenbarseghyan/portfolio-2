@@ -7,27 +7,28 @@ import {
 } from "react-mdl";
 
 const Skills = () => {
-  const [tab, setTab] = useState("0");
+  const [tab, setTab] = useState(0);
   const toggleCategories = () => {
-    if (tab === 0) {
+    console.log(tab);
+    if (tab.tabId === 0) {
       return (
         <div>
           <h1>This is HTML</h1>
         </div>
       );
-    } else if (tab === 1) {
+    } else if (tab.tabId === 1) {
       return (
         <div>
           <h1>This is CSS</h1>
         </div>
       );
-    } else if (tab === 2) {
+    } else if (tab.tabId === 2) {
       return (
         <div>
           <h1>This is JS</h1>
         </div>
       );
-    } else if (tab === 3) {
+    } else if (tab.tabId === 3) {
       return (
         <div>
           <h1>This is ReactJS</h1>
@@ -37,11 +38,19 @@ const Skills = () => {
   };
   return (
     <div className="category-tabs">
-      <Tabs tab={tab} onChange={(tabId) => setTab({ tab: tabId })} ripple>
-        <Tab>HTML</Tab>
-        <Tab>CSS</Tab>
-        <Tab>JS</Tab>
-        <Tab>ReactJS</Tab>
+      <Tabs tab={tab} onChange={(tabId) => setTab({ tabId })}>
+        <Tab className="skills-color" style={{ color: "white" }}>
+          HTML
+        </Tab>
+        <Tab className="skills-color" style={{ color: "white" }}>
+          CSS
+        </Tab>
+        <Tab className="skills-color" style={{ color: "white" }}>
+          JS
+        </Tab>
+        <Tab className="skills-color" style={{ color: "white" }}>
+          ReactJS
+        </Tab>
       </Tabs>
       <Grid>
         <Cell col={12}>

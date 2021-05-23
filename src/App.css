@@ -5,6 +5,13 @@
   background: linear-gradient(to bottom, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* use uigradients.com */
+
+.skills-color {
+  opacity: 0.8;
+background: #b92b27;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #5b8cc4, #bb504c);
+background: linear-gradient(to bottom, #5b8cc4, #bb504c); 
+}
 .layout-color {
  background-color: rgb(230, 230, 230);
 }

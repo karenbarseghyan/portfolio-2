@@ -19,7 +19,7 @@ const Education = () => {
                         style ={{height: '200px'}}/>
                         <p>Institute of Economics and Business</p>
                         <p>BS in Economics</p>
-                        <p>Sep 2014 to Jul 2016</p>
+                        <p>Sep 2007 to Jul 2013</p>
                     </Cell> 
                 </Grid>
             </div>
