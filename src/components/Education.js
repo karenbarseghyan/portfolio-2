@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Cell, Grid } from 'react-mdl'
 
-class Education extends Component {
-    render() {
+const Education = () => {
         return (
             <div className ="contact-body">
                 <Grid className = "contact-grid">
@@ -26,6 +25,5 @@ class Education extends Component {
             </div>
         )
     }
-}
 
 export default Education

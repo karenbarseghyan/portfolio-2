@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-class Experience extends Component {
-    render() {
+const Experience = () => {
         return (
             <div>
                 <h1>Experience Page</h1>
             </div>
         )
     }
-}
+
 
 export default Experience

@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Cell, Grid } from 'react-mdl'
 
-class LandingPage extends Component {
-    render() {
+const LandingPage = () => {
+    
         return (
             <div style = {{width: '100%', margin: 'auto'}}>
                <Grid className = "landing-grid">
@@ -24,6 +24,6 @@ class LandingPage extends Component {
             </div>
         )
     }
-}
+
 
 export default LandingPage
